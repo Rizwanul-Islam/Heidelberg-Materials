@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9Oh9A68EVs6pAZvA7ZDrglEnCSYXB5SFEKdlQb5vRpA=",
+  "Source": "SpaceXLaunchService.Api",
+  "BasePath": "_content/SpaceXLaunchService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

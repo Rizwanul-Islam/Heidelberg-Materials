@@ -1,0 +1,234 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.launch-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.launch-details {
+  flex: 1;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.searchInput {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.tableContainer {
+  margin-bottom: 20px;
+  width: 50%;
+  overflow-x: auto;
+}
+
+.tableRow:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.paginationText {
+  margin-right: 10px;
+}
+
+.emptyRow {
+  height: 53px;
+  text-align: center;
+  color: #888888;
+}
+
+.link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.MuiTableContainer-root {
+  width: 50%;
+  overflow-x: auto;
+}
+
+.customTab {
+  background-color: #e0e0e0;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.customTab:hover {
+  background-color: #ccc;
+}
+
+.customTab[selected='true'] {
+  background-color: #fff;
+  color: #000;
+}
+
+.customTab:focus {
+  outline: none;
+}
+
+.customTabIndicator {
+  background-color: #ff3d00;
+}
+
+.customTabLabelIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customTabLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.tableRow {
+  cursor: pointer;
+}
+
+.tableRow:hover {
+  background-color: #f5f5f5;
+}
+
+.tableRow.selected {
+  background-color: #f5f5f5;
+}
+
+.customTabs {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.customTabs .MuiTabs-indicator {
+  display: none;
+}
+
+.customTabs .MuiTab-root {
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  transition: background-color 0.3s;
+}
+
+.customTabs .MuiTab-root:hover {
+  background-color: #f5f5f5;
+}
+
+.customTabs .Mui-selected {
+  background-color: #f5f5f5;
+  border-color: #ccc;
+}
+
+.MuiTypography-body1 {
+  font-size: 0rem !important;
+}
+.MuiTabs-root {
+  margin-top: 25px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Tabs */
+.customTabs {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.customTab {
+  font-weight: bold;
+}
+
+/* Launch Details Container */
+.launch-details-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Launch Details Label */
+.launch-details-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Launch Details Value */
+.launch-details-value {
+  margin-bottom: 15px;
+}
+
+.launch-details-container {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.customTabs {
+  margin-bottom: 20px;
+}
+
+.customTab {
+  color: #000;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  width: 150px;
+}
+
+.value {
+  margin-left: 10px;
+}
+
+.payload {
+  margin-top: 20px;
+}
+
+.customTabs {
+  margin-bottom: 18px;
+  margin-top: -4px;
+}
