@@ -21,7 +21,7 @@ The objective of this task is to assess skills in REST API integration using .NE
 2. After running the React client app, you will see a list of launches
 3. Click on any launch and will generate the details
 
-## Running the .NET Web API Application
+## Running the .NET Web API Endpoints
 
 To run the minimal .NET web API application, follow these steps:
 
